@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="assignemnt.SearchPage_test">
+        <methods>
+          <include name="verifyMouseHouseOnSearchIconTest"/>
+          <include name="verifySearchWithMultipleCharacterTest"/>
+          <include name="verifySearchfieldAfterClickOnClearButtonTest"/>
+          <include name="verifyUserAbletoEnterInSearchFieldTest"/>
+          <include name="verifySearchSuggestionTest"/>
+          <include name="verifySearchTextFieldTest"/>
+          <include name="verifyTradingSuggestionTest"/>
+          <include name="verifySearchWithDefaultSortByTest"/>
+          <include name="verifySearchWithRelatedBrandTest"/>
+          <include name="verifyProductCounTest"/>
+          <include name="enterNumericValueTest"/>
+          <include name="verifySearchByOccasionTest"/>
+          <include name="verifySearchSuggestionDisplayTest"/>
+          <include name="enterUpperAndLowerLetterTest"/>
+          <include name="verifyCutAndCopyTestTest"/>
+          <include name="verifySearchWithMultipleBrandTest"/>
+          <include name="verifySearchWithSingleCharacterTest"/>
+          <include name="verifyAbleToSearchByEnterButtonTest"/>
+          <include name="verifySearchWithFitTypeTest"/>
+          <include name="verifyGridFormatTest"/>
+          <include name="verifySearchFieldTest"/>
+          <include name="verifySearchByMultiOccasionTest"/>
+          <include name="verifyClearOPtionIsAvailableOrNotTest"/>
+          <include name="verifySearchTextAfterSearchTest"/>
+          <include name="verifySearchWithCatogaryNameTest"/>
+          <include name="verifyMouseHourOnSearchIconTest"/>
+          <include name="verifySearchAlongWithSizeTest"/>
+          <include name="configBrowser"/>
+          <include name="verifyMouseHourOnClearButtonTest"/>
+          <include name="verifySearchAlongWithColorTest"/>
+          <include name="verifyClearButtonTest"/>
+          <include name="verifySearchByProductMaterialTest"/>
+          <include name="verifyClearOptionTest"/>
+          <include name="verifyPriceTest"/>
+          <include name="verifySearchAfterChoosingAnotherProductTest"/>
+          <include name="verifySearchWithMultipleBrandsTest"/>
+          <include name="verifySearchWithProductTypeTest"/>
+          <include name="verifyClearAllOptionTest"/>
+          <include name="verifySearchByLengthMultipleTimesTest"/>
+          <include name="verifySearchSuggestionWithMispelledTest"/>
+          <include name="verifyMouseHourOnSearchFieldTest"/>
+          <include name="verifyAbleToSearchBySearchButtonTest"/>
+          <include name="closeBrowser"/>
+          <include name="verifySearchByLengthTest"/>
+        </methods>
+      </class> <!-- assignemnt.SearchPage_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

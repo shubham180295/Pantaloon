@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="assignemnt.SearchPage_test">
+        <methods>
+          <include name="verifySearchSuggestionTest"/>
+          <include name="verifySearchWithDefaultSortByTest"/>
+          <include name="verifySearchWithRelatedBrandTest"/>
+          <include name="verifyProductCounTest"/>
+          <include name="enterNumericValueTest"/>
+          <include name="verifyCutAndCopyTestTest"/>
+          <include name="verifySearchWithMultipleBrandTest"/>
+          <include name="verifySearchWithSingleCharacterTest"/>
+          <include name="verifyAbleToSearchByEnterButtonTest"/>
+          <include name="verifySearchWithFitTypeTest"/>
+          <include name="verifySearchByMultiOccasionTest"/>
+          <include name="verifyClearOPtionIsAvailableOrNotTest"/>
+          <include name="verifySearchTextAfterSearchTest"/>
+          <include name="verifySearchAlongWithSizeTest"/>
+          <include name="configBrowser"/>
+          <include name="verifySearchAlongWithColorTest"/>
+          <include name="verifySearchByProductMaterialTest"/>
+          <include name="configBrowser1"/>
+          <include name="verifyPriceTest"/>
+          <include name="verifySearchAfterChoosingAnotherProductTest"/>
+          <include name="verifySearchWithMultipleBrandsTest"/>
+          <include name="verifySearchWithProductTypeTest"/>
+          <include name="verifyClearAllOptionTest"/>
+          <include name="verifyMouseHourOnSearchFieldTest"/>
+          <include name="verifyAbleToSearchBySearchButtonTest"/>
+          <include name="verifySearchByLengthTest"/>
+        </methods>
+      </class> <!-- assignemnt.SearchPage_test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
